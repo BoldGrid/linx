@@ -8,7 +8,7 @@
 get_header(); ?>
 
 	<header class="entry-header">
-		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+		<?php the_title( '<h1 class="h4 entry-title">', '</h1>' ); ?>
 		<div class="container">
 		<div class="entry-meta">
 			<?php boldgrid_posted_on(); ?>

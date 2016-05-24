@@ -4,6 +4,7 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	 * General Configs
 	 */
 	$boldgrid_framework_configs['theme_name'] = 'boldgrid-linx'; // Text domain
+	$boldgrid_framework_configs['customizer-options']['typography']['enabled'] = true;
 	$boldgrid_framework_configs['scripts']['boldgrid-sticky-footer'] = true;
 	$boldgrid_framework_configs['temp']['attribution_links'] = true;
 
@@ -35,7 +36,7 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 			'format' => 'palette-primary',
 			'colors' => array(
 				'#704752',
-                '#dec2ad',
+                '#827065',
                 '#702a3d',
                 '#ffffff',
 			)
@@ -89,9 +90,27 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	$boldgrid_framework_configs['customizer-options']['colors']['light_text'] = '#ffffff';
 	$boldgrid_framework_configs['customizer-options']['colors']['dark_text'] = '#333333';
 
-	// Fonts & Icons
-	$boldgrid_framework_configs['font']['translators'] = array ( 'on' );
-	$boldgrid_framework_configs['font']['types'] = array ( 'Lato:300,400' );
+	// Typography Headings
+	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['headings_font_family'] = 'Tinos';
+	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['headings_font_size'] = 20;
+	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['headings_text_transform'] = 'none';
+
+	// Typography Alternate Headings
+	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['alternate_headings_font_family'] = 'Lato';
+	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['alternate_headings_font_size'] = 20;
+	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['alternate_headings_text_transform'] = 'uppercase';
+
+	// Typography Navigation
+	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['navigation_font_family'] = 'Lato';
+	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['navigation_font_size'] = 12;
+	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['navigation_text_transform'] = 'uppercase';
+
+	// Typography Body
+	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['body_font_family'] = 'Open Sans';
+	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['body_font_size'] = 14;
+	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['body_line_height'] = 180;
+
+	// Social Icons
 	$boldgrid_framework_configs['social-icons']['type'] = 'icon';
 	$boldgrid_framework_configs['social-icons']['size'] = 'large';
 
@@ -106,10 +125,10 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	 */
 	$widget_markup['call-to-action'] = <<<HTML
 		<div class="col-md-6 call-to-action">
-			<h2>Excellence That Speaks For Itself</h2>
-			<h3>ONE PIECE CAN MAKE A WORLD OF DIFFERENCE</h3>
-			<p class="p-button-primary">
-				<a href="about-us" class="button-primary">LEARN MORE</a>
+			<h5 style="text-align: right;">Excellence That Speaks For Itself</h5>
+			<h2 style="text-align: right;">ONE PIECE CAN MAKE A WORLD OF DIFFERENCE</h2>
+			<p class="p-button-primary" style="text-align: right;">
+				<a href="about-us" class="button-primary" style="text-align: center;">LEARN MORE</a>
 			</p>
       	</div>
 HTML;
@@ -136,7 +155,7 @@ add_filter( 'boldgrid_theme_framework_config', 'boldgrid_theme_framework_config'
  * Site Title & Logo Controls
  */
 function filter_logo_controls( $controls ) {
-	$controls['logo_font_family']['default'] = 'Palatino';
+	$controls['logo_font_family']['default'] = 'Droid Serif';
 	$controls['logo_font_size']['default'] = 48;
 
 	// Controls above will override framework defaults

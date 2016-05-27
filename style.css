@@ -60,9 +60,10 @@ body {
 }
 .background-custom {
 	min-height: 600px;
+	margin-bottom: -15px;
 }
 .background-primary,
-.site-content {
+.site-content, .hentry {
 	background: url('images/shadow.png') center 68px no-repeat,
 		url('images/concrete_seamless.png') repeat;
 }

@@ -40,14 +40,14 @@
         -moz-box-shadow: 0 3px 0 0 $palette-primary_3;
         box-shadow: 0 3px 0 0 $palette-primary_3;
     }
-    .button-primary:hover, 
-    .button-primary:focus, 
-    .button-primary:active, 
+    .button-primary:hover,
+    .button-primary:focus,
+    .button-primary:active,
     .form-submit .submit:hover,
     .form-submit .submit:focus,
     .form-submit .submit:active,
     input[type="submit"]:hover,
-    input[type="submit"]:focus, 
+    input[type="submit"]:focus,
     input[type="submit"]:active {
         background: $palette-primary_3;
         color: $text-contrast-palette-primary_3;
@@ -58,8 +58,8 @@
     .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
     .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
     .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus,
-    .navbar-default .navbar-nav > .open > a, 
-    .navbar-default .navbar-nav > .open > a:hover, 
+    .navbar-default .navbar-nav > .open > a,
+    .navbar-default .navbar-nav > .open > a:hover,
     .navbar-default .navbar-nav > .open > a:focus {
         background: $palette-primary_2;
         color: $text-contrast-palette-primary_2;
@@ -75,8 +75,8 @@
     }
     a,
     .link-primary,
-    .secondary-menu li a, 
-    .tertiary-menu li a, 
+    .secondary-menu li a,
+    .tertiary-menu li a,
     .footer-center-menu li a,
     .mod-blockquote p,
     .current_page_item a,
@@ -102,16 +102,16 @@
     .button-secondary:hover,
     .button-secondary:focus {
         -webkit-box-shadow: 0 3px 0 0 $palette-primary_3;
-        -moz-box-shadow: 0 3px 0 0 $palette-primary_3;  
+        -moz-box-shadow: 0 3px 0 0 $palette-primary_3;
         box-shadow: 0 3px 0 0 $palette-primary_3;
-    }    
-    .nav > li > a:hover, 
+    }
+    .nav > li > a:hover,
     .nav > li > a:focus,
-    .navbar-default .navbar-nav .dropdown-menu > .active > a, 
-    .navbar-default .navbar-nav > .active > a, 
-    .navbar-default .navbar-nav > .active > a:hover, 
+    .navbar-default .navbar-nav .dropdown-menu > .active > a,
+    .navbar-default .navbar-nav > .active > a,
+    .navbar-default .navbar-nav > .active > a:hover,
     .navbar-default .navbar-nav > .active > a:focus,
-    .navbar-default .navbar-nav > li > a:hover, 
+    .navbar-default .navbar-nav > li > a:hover,
     .navbar-default .navbar-nav > li > a:focus {
         background: $palette-primary_3;
         color: $text-contrast-palette-primary_3;
@@ -224,9 +224,9 @@
     .fa-youtube-square:hover {
         color: #bb0000;
     }
-    .woocommerce #respond input#submit, 
+    .woocommerce #respond input#submit,
     .woocommerce a.button,
-    .woocommerce button.button, 
+    .woocommerce button.button,
     .woocommerce input.button,
     .woocommerce p.buttons a.button {
         background-color: #a46497;

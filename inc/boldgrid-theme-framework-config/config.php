@@ -19,14 +19,18 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	$boldgrid_framework_configs['template']['footer'] = '1';
 	// Select the header template to use.
 	$boldgrid_framework_configs['template']['header'] = 'generic';
+
 	// Assign menus, widgets, and actions to locations in generic header template.
 	$boldgrid_framework_configs['template']['locations']['header'] = array(
+		'1' => array( '[widget]boldgrid-widget-2' ),
+		'5' => array( '[menu]secondary' ),
 		'6' => array( '[action]boldgrid_site_identity' ),
-		'7' => array( '[menu]tertiary' ),
-		'8' => array( '[widget]boldgrid-widget-1', '[menu]secondary', '[action]boldgrid_primary_navigation' ),
-		'9' => array( '[menu]social' ),
-		'10' => array( '[widget]boldgrid-widget-2' ),
+		'7' => array( '[action]boldgrid_primary_navigation' ),
+		'8' => array( '[menu]tertiary' ),
 	);
+
+	// Set the Call To Action Widget to be on Home Page Only.
+	$boldgrid_framework_configs['template']['call-to-action'] = 'home-only';
 
 	/**
 	 * Customizer Configs
@@ -144,13 +148,18 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	 * Widgets
 	 */
 	$widget_markup['call-to-action'] = <<<HTML
-		<div class="col-md-6 call-to-action">
-			<h5 style="text-align: right;">Excellence That Speaks For Itself</h5>
-			<h2 style="text-align: right;">ONE PIECE CAN MAKE A WORLD OF DIFFERENCE</h2>
-			<p class="p-button-primary" style="text-align: right;">
-				<a href="about-us" class="button-primary" style="text-align: center;">LEARN MORE</a>
-			</p>
-      	</div>
+		<div class="container-fluid">
+			<div class="row background-custom">
+				<div class="col-md-6"></div>
+				<div class="col-md-6 call-to-action">
+					<h5 style="text-align: right;">Excellence That Speaks For Itself</h5>
+					<h2 style="text-align: right;">ONE PIECE CAN MAKE A WORLD OF DIFFERENCE</h2>
+					<p class="p-button-primary" style="text-align: right;">
+						<a href="about-us" class="button-primary" style="text-align: center;">LEARN MORE</a>
+					</p>
+				</div>
+			</div>
+		</div>
 HTML;
 
 	// Widget 1

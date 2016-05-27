@@ -63,16 +63,16 @@ body {
 }
 .background-primary,
 .site-content {
-	background: url('images/shadow.png') center 68px no-repeat, 
-		url('images/concrete_seamless.png') repeat;	
+	background: url('images/shadow.png') center 68px no-repeat,
+		url('images/concrete_seamless.png') repeat;
 }
 .post-title-hidden .entry-title {
 	display: none;
 }
 .post-title-hidden .site-content,
 .mce-content-body {
-	background: url('images/shadow.png') center 8px no-repeat, 
-		url('images/concrete_seamless.png') repeat;	
+	background: url('images/shadow.png') center 8px no-repeat,
+		url('images/concrete_seamless.png') repeat;
 }
 .post-title-hidden .entry-content,
 .mce-content-body .entry-content {
@@ -81,15 +81,15 @@ body {
 .home .background-primary,
 .archive .site-content,
 .search .site-content {
-	background: url('images/shadow.png') center 8px no-repeat, 
-		url('images/concrete_seamless.png') repeat;	
+	background: url('images/shadow.png') center 8px no-repeat,
+		url('images/concrete_seamless.png') repeat;
 }
 .background-primary,
 .site-content {
 	padding-top: 0;
 }
 .background-secondary {
-	background: url('images/shadow.png') center 10px no-repeat, 
+	background: url('images/shadow.png') center 10px no-repeat,
 	url(images/concrete_seamless2.png) repeat;
 	margin-top: -15px;
 	padding: 50px 25px;
@@ -108,7 +108,7 @@ p {
 .entry-content ol {
     margin-left: 0;
 }
-.entry-content ul, 
+.entry-content ul,
 .entry-content ol {
 	padding-left: 16px;
 }
@@ -120,7 +120,7 @@ p {
 .button-primary {
 	text-align: center;
 }
-.entry-content ul, 
+.entry-content ul,
 .entry-content ol {
 	line-height: 24px;
 }
@@ -146,9 +146,9 @@ input[type="submit"],
 .h6 {
 	font-family: 'Tinos';
 }
-.button-primary:hover, 
-.button-primary:focus, 
-.button-primary:active, 
+.button-primary:hover,
+.button-primary:focus,
+.button-primary:active,
 input[type="submit"]:hover,
 input[type="submit"]:focus,
 input[type="submit"]:active,
@@ -248,7 +248,7 @@ input[type="submit"]:active,
 /*-----------------------------------------------
 ## Titles
 -----------------------------------------------*/
-.page-template-page_home .entry-title {
+.page-template-home .entry-title {
 	display: none;
 }
 .entry-title {
@@ -262,7 +262,7 @@ input[type="submit"]:active,
 
 /* Headings */
 .hentry {
-	margin: 0 auto;	
+	margin: 0 auto;
 }
 .heading h3 {
     margin-top: 10px;
@@ -293,7 +293,7 @@ input[type="submit"],
 /* Positioning */
 .p-button-primary,
 .p-button-secondary {
-	margin: 45px 0;	
+	margin: 45px 0;
 	padding: 8px 0;
 }
 .gridblock .p-button-secondary {
@@ -357,7 +357,7 @@ hr {
 /* md */
 @media (min-width: 992px) {
 	.site-branding {
-		margin: 20px 0;	
+		margin: 20px 0;
 	}
 	.call-to-action {
 		margin-bottom: 0;
@@ -377,11 +377,11 @@ hr {
 }
 
 /* Active & Hover */
-.navbar-default .navbar-nav .dropdown-menu > .active > a, 
-.navbar-default .navbar-nav > .active > a, 
-.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav .dropdown-menu > .active > a,
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus,
-.navbar-default .navbar-nav > li > a:hover, 
+.navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
 
 }
@@ -399,16 +399,16 @@ hr {
 @media (min-width: 768px) {
 	.navbar-default {
 		float: left;
-		padding-top: 0;	
+		padding-top: 0;
 	}
 }
 
 /* md */
-@media (min-width: 992px) {	
+@media (min-width: 992px) {
 	/* Navigation */
 	.navbar-default {
 		float: right;
-		padding-top: 20px;	
+		padding-top: 20px;
 	}
 }
 
@@ -425,12 +425,12 @@ hr {
 	padding: 0 7px;
 }
 .tertiary-menu {
-	margin-bottom: 0;	
+	margin-bottom: 0;
 }
 .footer-center-items {
     padding: 0;
 }
-.footer-center-items li::after, 
+.footer-center-items li::after,
 .boldgrid-framework-menu li::after {
     content: "";
 }
@@ -444,7 +444,7 @@ hr {
 }
 #menu-social ul li {
     position: relative;
-    display:  inline-block;    
+    display:  inline-block;
 }
 #menu-social ul li a {
 	display: inline-block;
@@ -458,14 +458,14 @@ hr {
 /*-----------------------------------------------
 ## Positioning
 -----------------------------------------------*/
-.gridblock h1, 
-.gridblock h2, 
-.gridblock h3, 
-.gridblock h4, 
-.gridblock h5, 
+.gridblock h1,
+.gridblock h2,
+.gridblock h3,
+.gridblock h4,
+.gridblock h5,
 .gridblock h6,
-.gridblock ol, 
-.gridblock ul, 
+.gridblock ol,
+.gridblock ul,
 .gridblock li,
 .gridblock p {
 	margin: 10px 0;
@@ -529,7 +529,7 @@ hr {
 .image-gallery img,
 .video-gallery img,
 .slideshow-gallery img {
-	margin-bottom: 15px;	
+	margin-bottom: 15px;
 }
 .mod-img-circle img {
 	border-radius: 50%;
@@ -561,7 +561,7 @@ hr {
 ## Beta
 -----------------------------------------------*/
 /*.mod-beta {
-	padding: 25px 50px;	
+	padding: 25px 50px;
 }*/
 .mod-beta h2 {
 	margin-bottom: 20px;
@@ -572,7 +572,7 @@ hr {
 
 /* sm */
 @media (min-width: 768px) {
-	.mod-beta { 
+	.mod-beta {
 		padding: 0 5%;
 	}
 }
@@ -594,17 +594,17 @@ hr {
 /*-----------------------------------------------
 ## Home
 -----------------------------------------------*/
-.page-template-page_home-php .entry-title {
-	display: none;	
+.page-template-home .entry-title {
+	display: none;
 }
-.page-template-page_home-php .site-content {
+.page-template-home .site-content {
 	background: none;
-	padding-bottom: 0;	
-	padding-top: 0;	
+	padding-bottom: 0;
+	padding-top: 0;
 }
-.page-template-page_home-php .page-content, 
-.page-template-page_home-php .entry-content, 
-.page-template-page_home-php .entry-summary {
+.page-template-home .page-content,
+.page-template-home .entry-content,
+.page-template-home .entry-summary {
     margin: 0;
 }
 
@@ -622,8 +622,8 @@ hr {
 	-webkit-transition: all .2s ease-in-out;
 	transition: all .2s ease-in-out;
 }
-.gallery-icon:hover, 
-.gallery-icon:focus, 
+.gallery-icon:hover,
+.gallery-icon:focus,
 .gallery-icon:active {
 	filter: brightness(60%);
 	/* Transform */
@@ -632,7 +632,7 @@ hr {
 }
 .gallery-icon img {
 	position: relative;
-	z-index: 1;	
+	z-index: 1;
 }
 
 /*------------------------------------------------------------------------
@@ -651,7 +651,7 @@ hr {
 
 /* Search Form */
 .form-control {
-	display: inline-block;	
+	display: inline-block;
 }
 
 /* Comments */
@@ -672,7 +672,7 @@ hr {
 .form-submit .submit {
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
-	border-radius: 6px;	
+	border-radius: 6px;
 }
 
 /*------------------------------------------------------------------------
@@ -697,7 +697,7 @@ body.single-product #content {
 # Footer
 ------------------------------------------------------------------------*/
 .site-footer {
-	background:url('images/shadow.png') center 10px no-repeat, 
+	background:url('images/shadow.png') center 10px no-repeat,
 	url('images/concrete_seamless.png') repeat;
 	padding: 30px 15px;
 }
@@ -710,12 +710,12 @@ body.single-product #content {
 	margin-top: 30px;
 }
 .social i {
-	padding: 10px 5px;	
+	padding: 10px 5px;
 }
 
 /* Disabled Footer */
 .disabled-footer .site-footer {
-	background:url('images/shadow.png') center 10px no-repeat, 
+	background:url('images/shadow.png') center 10px no-repeat,
 	url('images/concrete_seamless.png') repeat;
 }
 
@@ -732,6 +732,6 @@ html, body, .site, .site-content {
 .palette-primary #boldgrid-sticky-filler {
     background: url( 'images/concrete_seamless.png' ) repeat;
 }
-body.page-template-page_home {
-	height:	auto; 
+body.page-template-home {
+	height:	auto;
 }

@@ -3,241 +3,237 @@
 ------------------------------------------------------------------------*/
 .palette-primary {
 
-    /*-----------------------------------------------
-    ## 1
-    -----------------------------------------------*/
-    .site-header {
-        background: $palette-primary_1;
-        border-bottom: 1px solid transparent;
-    }
-    .background-secondary,
-    .dropdown-menu,
-    .dropdown-toggle,
-    .navbar-default .navbar-nav > li > a,
-    .site-title a,
-    .background-secondary h2,
-    .background-secondary p {
-        background: $palette-primary_1;
-        color: $text-contrast-palette-primary_1;
-    }
-    .site-title a,
-    .site-description,
-    .navbar-default .navbar-nav .open .dropdown-menu > li > a,
-    .navbar-default .navbar-nav > li > a {
-        color: $text-contrast-palette-primary_1;
-    }
+	/*-----------------------------------------------
+	## 1
+	-----------------------------------------------*/
+	.site-header {
+		background: $palette-primary_1;
+		border-bottom: 1px solid transparent;
+	}
+	.background-secondary,
+	.dropdown-menu,
+	.dropdown-toggle,
+	.navbar-default .navbar-nav > li > a,
+	.site-title a,
+	.background-secondary h2,
+	.background-secondary p {
+		background: $palette-primary_1;
+		color: $text-contrast-palette-primary_1;
+	}
+	.site-title a,
+	.site-description,
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a,
+	.navbar-default .navbar-nav > li > a {
+		color: $text-contrast-palette-primary_1;
+	}
 
-    /*-----------------------------------------------
-    ## 2
-    -----------------------------------------------*/
-    .button-primary,
-    .form-submit .submit,
-    input[type="submit"] {
-        background: $palette-primary_2;
-        color: $text-contrast-palette-primary_2;
-        /* Box Shadow */
-        -webkit-box-shadow: 0 3px 0 0 $palette-primary_3;
-        -moz-box-shadow: 0 3px 0 0 $palette-primary_3;
-        box-shadow: 0 3px 0 0 $palette-primary_3;
-    }
-    .button-primary:hover,
-    .button-primary:focus,
-    .button-primary:active,
-    .form-submit .submit:hover,
-    .form-submit .submit:focus,
-    .form-submit .submit:active,
-    input[type="submit"]:hover,
-    input[type="submit"]:focus,
-    input[type="submit"]:active {
-        background: $palette-primary_3;
-        color: $text-contrast-palette-primary_3;
-    }
-    .open > .dropdown-toggle.button-primary,
-    .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-    .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
-    .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
-    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
-    .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus,
-    .navbar-default .navbar-nav > .open > a,
-    .navbar-default .navbar-nav > .open > a:hover,
-    .navbar-default .navbar-nav > .open > a:focus {
-        background: $palette-primary_2;
-        color: $text-contrast-palette-primary_2;
-    }
-    .button-secondary:hover,
-    .button-secondary:focus,
-    .button-secondary:active  {
-        background: $palette-primary_2;
-        color: $text-contrast-palette-primary_2;
-    }
-    hr {
-        background: $palette-primary_2;
-    }
-    a,
-    .link-primary,
-    .secondary-menu li a,
-    .tertiary-menu li a,
-    .footer-center-menu li a,
-    .mod-blockquote p,
-    .current_page_item a,
-    .disabled-footer .site-footer a,
-    .site-footer a {
-        color: $palette-primary_2;
-    }
-    .gridblock li::before {
-        background-color: $palette-primary_2;
-    }
+	/*-----------------------------------------------
+	## 2
+	-----------------------------------------------*/
+	.button-primary,
+	.form-submit .submit,
+	input[type="submit"] {
+		background: $palette-primary_2;
+		color: $text-contrast-palette-primary_2;
+		/* Box Shadow */
+		-webkit-box-shadow: 0 3px 0 0 $palette-primary_3;
+		-moz-box-shadow: 0 3px 0 0 $palette-primary_3;
+		box-shadow: 0 3px 0 0 $palette-primary_3;
+	}
+	.button-primary:hover,
+	.button-primary:focus,
+	.button-primary:active,
+	.form-submit .submit:hover,
+	.form-submit .submit:focus,
+	.form-submit .submit:active,
+	input[type="submit"]:hover,
+	input[type="submit"]:focus,
+	input[type="submit"]:active {
+		background: $palette-primary_3;
+		color: $text-contrast-palette-primary_3;
+	}
+	.open > .dropdown-toggle.button-primary,
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+	.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus,
+	.navbar-default .navbar-nav > .open > a,
+	.navbar-default .navbar-nav > .open > a:hover,
+	.navbar-default .navbar-nav > .open > a:focus {
+		background: $palette-primary_2;
+		color: $text-contrast-palette-primary_2;
+	}
+	.button-secondary:hover,
+	.button-secondary:focus,
+	.button-secondary:active  {
+		background: $palette-primary_2;
+		color: $text-contrast-palette-primary_2;
+	}
+	hr {
+		background: $palette-primary_2;
+	}
+	a,
+	.link-primary,
+	.secondary-menu li a,
+	.tertiary-menu li a,
+	.footer-center-menu li a,
+	.mod-blockquote p,
+	.current_page_item a,
+	.disabled-footer .site-footer a,
+	.site-footer a {
+		color: $palette-primary_2;
+	}
+	.gridblock li::before {
+		background-color: $palette-primary_2;
+	}
 
-    /*-----------------------------------------------
-    ## 3
-    -----------------------------------------------*/
-    .button-secondary {
-        background: $palette-primary_3;
-        color: $text-contrast-palette-primary_3;
-        /* Box Shadow */
-        -webkit-box-shadow: 0 3px 0 0 $palette-primary_2;
-        -moz-box-shadow: 0 3px 0 0 $palette-primary_2;
-        box-shadow: 0 3px 0 0 $palette-primary_2;
-    }
-    .button-secondary:hover,
-    .button-secondary:focus {
-        -webkit-box-shadow: 0 3px 0 0 $palette-primary_3;
-        -moz-box-shadow: 0 3px 0 0 $palette-primary_3;
-        box-shadow: 0 3px 0 0 $palette-primary_3;
-    }
-    .nav > li > a:hover,
-    .nav > li > a:focus,
-    .navbar-default .navbar-nav .dropdown-menu > .active > a,
-    .navbar-default .navbar-nav > .active > a,
-    .navbar-default .navbar-nav > .active > a:hover,
-    .navbar-default .navbar-nav > .active > a:focus,
-    .navbar-default .navbar-nav > li > a:hover,
-    .navbar-default .navbar-nav > li > a:focus {
-        background: $palette-primary_3;
-        color: $text-contrast-palette-primary_3;
-    }
-    .secondary-menu .current_page_item a,
-    .tertiary-menu .current_page_item a,
-    .footer-center-menu  .current_page_item a,
-    .link-secondary {
-        color: $palette-primary_3;
-    }
-    .mod-blockquote {
-        border-left: 3px solid $palette-primary_3;
-    }
+	/*-----------------------------------------------
+	## 3
+	-----------------------------------------------*/
+	.button-secondary {
+		background: $palette-primary_3;
+		color: $text-contrast-palette-primary_3;
+		/* Box Shadow */
+		-webkit-box-shadow: 0 3px 0 0 $palette-primary_2;
+		-moz-box-shadow: 0 3px 0 0 $palette-primary_2;
+		box-shadow: 0 3px 0 0 $palette-primary_2;
+	}
+	.button-secondary:hover,
+	.button-secondary:focus {
+		-webkit-box-shadow: 0 3px 0 0 $palette-primary_3;
+		-moz-box-shadow: 0 3px 0 0 $palette-primary_3;
+		box-shadow: 0 3px 0 0 $palette-primary_3;
+	}
+	.nav > li > a:hover,
+	.nav > li > a:focus,
+	.navbar-default .navbar-nav .dropdown-menu > .active > a,
+	.navbar-default .navbar-nav > .active > a,
+	.navbar-default .navbar-nav > .active > a:hover,
+	.navbar-default .navbar-nav > .active > a:focus,
+	.navbar-default .navbar-nav > li > a:hover,
+	.navbar-default .navbar-nav > li > a:focus {
+		background: $palette-primary_3;
+		color: $text-contrast-palette-primary_3;
+	}
+	.secondary-menu .current_page_item a,
+	.tertiary-menu .current_page_item a,
+	.footer-center-menu  .current_page_item a,
+	.link-secondary {
+		color: $palette-primary_3;
+	}
+	.mod-blockquote {
+		border-left: 3px solid $palette-primary_3;
+	}
 
-    .mod-alpha h2,
-    .mod-alpha h3,
-    .mod-alpha h5 {
-        color: $palette-primary_3;
-    }
+	.mod-alpha h2,
+	.mod-alpha h3,
+	.mod-alpha h5 {
+		color: $palette-primary_3;
+	}
 
-    /*-----------------------------------------------
-    ## 4
-    -----------------------------------------------*/
-    /** This theme uses a background-pattern dont add .mce-content-body  **/
-    .background-primary {
-        background-color: $palette-primary_4;
-        color: $text-contrast-palette-primary_4;
-    }
+	/*-----------------------------------------------
+	## 4
+	-----------------------------------------------*/
+	/** This theme uses a background-pattern dont add .mce-content-body  **/
+	.background-primary {
+		background-color: $palette-primary_4;
+		color: $text-contrast-palette-primary_4;
+	}
 
-    .widget-title,
-    #reply-title  {
-        color: $text-contrast-palette-primary_4;
-    }
+	.widget-title,
+	#reply-title  {
+		color: $text-contrast-palette-primary_4;
+	}
 
-    /*-----------------------------------------------
-    ## Light Text
-    -----------------------------------------------*/
-    .comment-text {
-        background:#fff;
-    }
+	/*-----------------------------------------------
+	## Light Text
+	-----------------------------------------------*/
+	.comment-text {
+		background:#fff;
+	}
 
-    /*-----------------------------------------------
-    ## Dark Text
-    -----------------------------------------------*/
-    /* sm */
-    @media (min-width: 768px) {
-        .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-            color: #333333;
-        }
-    }
+	/*-----------------------------------------------
+	## Dark Text
+	-----------------------------------------------*/
+	/* sm */
+	@media (min-width: 768px) {
+		.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+			color: #333333;
+		}
+	}
 
-    /*-----------------------------------------------
-    ## Et Cetera
-    -----------------------------------------------*/
-    .entry-title {
-        color: $text-contrast-palette-primary_1;
-        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+50,000000+100&0+0,0.2+50,0+100 */
-        background: -moz-linear-gradient(left,  rgba(0,0,0,.0) 0%, rgba(0,0,0,.20) 50%, rgba(0,0,0,.0) 100%); /* FF3.6-15 */
-        background: -webkit-linear-gradient(left,  rgba(0,0,0,.0) 0%,rgba(0,0,0,.20) 50%,rgba(0,0,0,.0) 100%); /* Chrome10-25,Safari5.1-6 */
-        background: linear-gradient(to right,  rgba(0,0,0,.0) 0%,rgba(0,0,0,.20) 50%,rgba(0,0,0,.0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
-        background-color: $palette-primary_1; /* Old browsers */
-    }
-    .call-to-action {
-        background: rgba(0, 0, 0, .40);
-        color: #eee;
-    }
-    .call-to-action h2 {
-        border-top: 1px solid #eee;
-    }
-    .mod-beta img {
-        border: 5px solid #eee;
-        /* Box Shadow */
-        -webkit-box-shadow: 0px 7px 8px 0px rgba(150, 150, 150, 0.75);
-        -moz-box-shadow: 0px 7px 8px 0px rgba(150, 150, 150, 0.75);
-        box-shadow: 0px 7px 8px 0px rgba(150, 150, 150, 0.75);
-    }
-    .widget-area {
-        border: 1px solid #ccc;
-    }
-    .fa-facebook:hover,
-    .fa-facebook-f:hover,
-    .fa-facebook-official:hover,
-    .fa-facebook-square:hover {
-        color: #3b5998;
-    }
-    .fa-twitter:hover,
-    .fa-twitter-square:hover {
-        color: #00aced;
-    }
-    .fa-google:hover,
-    .fa-google-plus:hover,
-    .fa-google-plus-square:hover {
-        color: #dd4b39;
-    }
-    .fa-instagram:hover {
-        color: #517fa4;
-    }
-    .fa-linkedin:hover,
-    .fa-linkedin-square:hover {
-        color: #007bb6;
-    }
-    .fa-pinterest:hover,
-    .fa-pinterest-p:hover,
-    .fa-pinterest-square:hover {
-        color: #cb2027;
-    }
-    .fa-youtube:hover,
-    .fa-youtube-play:hover,
-    .fa-youtube-square:hover {
-        color: #bb0000;
-    }
-    .woocommerce #respond input#submit,
-    .woocommerce a.button,
-    .woocommerce button.button,
-    .woocommerce input.button,
-    .woocommerce p.buttons a.button {
-        background-color: #a46497;
-        color: #fff;
-    }
-    .woocommerce p.buttons a.button:hover {
-        background-color: #dad8da;
-        color: #515151;
-    }
+	/*-----------------------------------------------
+	## Et Cetera
+	-----------------------------------------------*/
+	.entry-title {
+		color: $text-contrast-palette-primary_1;
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+50,000000+100&0+0,0.2+50,0+100 */
+		background: -moz-linear-gradient(left,  rgba(0,0,0,.0) 0%, rgba(0,0,0,.20) 50%, rgba(0,0,0,.0) 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(left,  rgba(0,0,0,.0) 0%,rgba(0,0,0,.20) 50%,rgba(0,0,0,.0) 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to right,  rgba(0,0,0,.0) 0%,rgba(0,0,0,.20) 50%,rgba(0,0,0,.0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 */
+		background-color: $palette-primary_1; /* Old browsers */
+	}
+	.call-to-action {
+		background: rgba(0, 0, 0, .40);
+		color: #eee;
+	}
+	.call-to-action h2 {
+		border-top: 1px solid #eee;
+	}
+	.mod-beta img {
+		border: 5px solid #eee;
+		/* Box Shadow */
+		-webkit-box-shadow: 0px 7px 8px 0px rgba(150, 150, 150, 0.75);
+		-moz-box-shadow: 0px 7px 8px 0px rgba(150, 150, 150, 0.75);
+		box-shadow: 0px 7px 8px 0px rgba(150, 150, 150, 0.75);
+	}
+	.widget-area {
+		border: 1px solid #ccc;
+	}
+	.fa-facebook:hover,
+	.fa-facebook-f:hover,
+	.fa-facebook-official:hover,
+	.fa-facebook-square:hover {
+		color: #3b5998;
+	}
+	.fa-twitter:hover,
+	.fa-twitter-square:hover {
+		color: #00aced;
+	}
+	.fa-google:hover,
+	.fa-google-plus:hover,
+	.fa-google-plus-square:hover {
+		color: #dd4b39;
+	}
+	.fa-instagram:hover {
+		color: #517fa4;
+	}
+	.fa-linkedin:hover,
+	.fa-linkedin-square:hover {
+		color: #007bb6;
+	}
+	.fa-pinterest:hover,
+	.fa-pinterest-p:hover,
+	.fa-pinterest-square:hover {
+		color: #cb2027;
+	}
+	.fa-youtube:hover,
+	.fa-youtube-play:hover,
+	.fa-youtube-square:hover {
+		color: #bb0000;
+	}
+	.woocommerce #respond input#submit,
+	.woocommerce a.button,
+	.woocommerce button.button,
+	.woocommerce input.button,
+	.woocommerce p.buttons a.button {
+		background-color: #a46497;
+		color: #fff;
+	}
+	.woocommerce p.buttons a.button:hover {
+		background-color: #dad8da;
+		color: #515151;
+	}
 }
-
-/*------------------------------------------------------------------------
-# Tiny MCE
-------------------------------------------------------------------------*/

@@ -78,7 +78,7 @@ body {
 .mce-content-body .entry-content {
 	padding-top: 50px;
 }
-.home .background-primary,
+.entry-content,
 .archive .site-content,
 .search .site-content {
 	background: url('images/shadow.png') center 8px no-repeat,

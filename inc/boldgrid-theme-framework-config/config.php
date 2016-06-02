@@ -110,7 +110,29 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['body_font_size'] = 14;
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['body_line_height'] = 180;
 
-	// Social Icons
+	// Typography Relationships
+	$boldgrid_framework_configs['customizer-options']['typography']['selectors']['.call-to-action h2' ]= array(
+		'type' => 'headings',
+		'round' => 'floor',
+		'amount' => 0.9, 
+	);
+	$boldgrid_framework_configs['customizer-options']['typography']['selectors']['.call-to-action h3' ]= array(
+		'type' => 'headings',
+		'round' => 'floor',
+		'amount' => 2.4, 
+	);
+	$boldgrid_framework_configs['customizer-options']['typography']['selectors']['.mod-alpha h2' ]= array(
+		'type' => 'headings',
+		'round' => 'floor',
+		'amount' => 0.9, 
+	);
+	$boldgrid_framework_configs['customizer-options']['typography']['selectors']['.mod-alpha h3' ]= array(
+		'type' => 'headings',
+		'round' => 'floor',
+		'amount' => 1.8, 
+	);
+
+	// Icons
 	$boldgrid_framework_configs['social-icons']['type'] = 'icon';
 	$boldgrid_framework_configs['social-icons']['size'] = 'large';
 
@@ -125,8 +147,8 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	 */
 	$widget_markup['call-to-action'] = <<<HTML
 		<div class="col-md-6 call-to-action">
-			<h5 style="text-align: right;">Excellence That Speaks For Itself</h5>
-			<h2 style="text-align: right;">ONE PIECE CAN MAKE A WORLD OF DIFFERENCE</h2>
+			<h2>Excellence That Speaks For Itself</h2>
+			<h3>ONE PIECE CAN MAKE A WORLD OF DIFFERENCE</h3>
 			<p class="p-button-primary" style="text-align: right;">
 				<a href="about-us" class="button-primary" style="text-align: center;">LEARN MORE</a>
 			</p>

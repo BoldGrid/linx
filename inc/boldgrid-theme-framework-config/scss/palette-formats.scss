@@ -78,6 +78,7 @@
     .secondary-menu li a, 
     .tertiary-menu li a, 
     .footer-center-menu li a,
+    blockquote p,
     .mod-blockquote p,
     .current_page_item a,
     .disabled-footer .site-footer a,
@@ -122,6 +123,7 @@
     .link-secondary {
         color: $palette-primary_3;
     }
+    blockquote,
     .mod-blockquote {
         border-left: 3px solid $palette-primary_3;
     }
@@ -179,7 +181,7 @@
         background: rgba(0, 0, 0, .40);
         color: #eee;
     }
-    .call-to-action h2 {
+    .call-to-action h3 {
         border-top: 1px solid #eee;
     }
     .mod-beta img {
@@ -237,7 +239,3 @@
         color: #515151;
     }
 }
-
-/*------------------------------------------------------------------------
-# Tiny MCE
-------------------------------------------------------------------------*/

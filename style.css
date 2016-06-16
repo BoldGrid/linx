@@ -97,6 +97,10 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 /*-----------------------------------------------
 ## Typography
 -----------------------------------------------*/
+.mod-alpha h2 {
+	font-style: italic;
+	padding-top: 15px;
+}
 p {
 	padding-bottom: 5px;
 }

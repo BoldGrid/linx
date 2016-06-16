@@ -92,12 +92,12 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 
 	// Typography Headings
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['headings_font_family'] = 'Tinos';
-	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['headings_font_size'] = 20;
+	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['headings_font_size'] = 14;
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['headings_text_transform'] = 'none';
 
 	// Typography Alternate Headings
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['alternate_headings_font_family'] = 'Lato';
-	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['alternate_headings_font_size'] = 20;
+	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['alternate_headings_font_size'] = 14;
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['alternate_headings_text_transform'] = 'uppercase';
 
 	// Typography Navigation
@@ -110,26 +110,29 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['body_font_size'] = 14;
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['body_line_height'] = 180;
 
+	// Typography Tagline Classes
+	$boldgrid_framework_configs['template']['tagline-classes'] = 'h5';
+
 	// Typography Relationships
-	$boldgrid_framework_configs['customizer-options']['typography']['selectors']['.call-to-action h2' ]= array(
+	$boldgrid_framework_configs['customizer-options']['typography']['selectors']['.entry-header h1.entry-title' ]= array(
 		'type' => 'headings',
 		'round' => 'floor',
-		'amount' => 0.9, 
+		'amount' => 1.75,
+	);
+	$boldgrid_framework_configs['customizer-options']['typography']['selectors']['.call-to-action h2, .mod-alpha h2' ]= array(
+		'type' => 'headings',
+		'round' => 'floor',
+		'amount' => 1.3,
 	);
 	$boldgrid_framework_configs['customizer-options']['typography']['selectors']['.call-to-action h3' ]= array(
 		'type' => 'headings',
 		'round' => 'floor',
-		'amount' => 2.4, 
-	);
-	$boldgrid_framework_configs['customizer-options']['typography']['selectors']['.mod-alpha h2' ]= array(
-		'type' => 'headings',
-		'round' => 'floor',
-		'amount' => 0.9, 
+		'amount' => 3.45,
 	);
 	$boldgrid_framework_configs['customizer-options']['typography']['selectors']['.mod-alpha h3' ]= array(
 		'type' => 'headings',
 		'round' => 'floor',
-		'amount' => 1.8, 
+		'amount' => 2.6,
 	);
 
 	// Icons
@@ -149,8 +152,8 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 		<div class="col-md-6 call-to-action">
 			<h2>Excellence That Speaks For Itself</h2>
 			<h3>ONE PIECE CAN MAKE A WORLD OF DIFFERENCE</h3>
-			<p class="p-button-primary" style="text-align: right;">
-				<a href="about-us" class="button-primary" style="text-align: center;">LEARN MORE</a>
+			<p class="p-button-primary">
+				<a href="about-us" class="button-primary">LEARN MORE</a>
 			</p>
       	</div>
 HTML;

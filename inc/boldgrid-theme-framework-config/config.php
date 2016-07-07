@@ -121,12 +121,12 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 
 	// Typography Headings.
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['headings_font_family'] = 'Tinos';
-	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['headings_font_size'] = 20;
+	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['headings_font_size'] = 14;
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['headings_text_transform'] = 'none';
 
 	// Typography Alternate Headings.
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['alternate_headings_font_family'] = 'Lato';
-	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['alternate_headings_font_size'] = 20;
+	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['alternate_headings_font_size'] = 14;
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['alternate_headings_text_transform'] = 'uppercase';
 
 	// Typography Navigation.
@@ -138,6 +138,31 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['body_font_family'] = 'Open Sans';
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['body_font_size'] = 14;
 	$boldgrid_framework_configs['customizer-options']['typography']['defaults']['body_line_height'] = 180;
+
+	// Typography Tagline Classes.
+	$boldgrid_framework_configs['template']['tagline-classes'] = 'h5';
+
+	// Typography Relationships.
+	$boldgrid_framework_configs['customizer-options']['typography']['selectors']['.entry-header h1.entry-title'] = array(
+		'type' => 'headings',
+		'round' => 'floor',
+		'amount' => 1.75,
+	);
+	$boldgrid_framework_configs['customizer-options']['typography']['selectors']['.call-to-action h2, .mod-alpha h2'] = array(
+		'type' => 'headings',
+		'round' => 'floor',
+		'amount' => 1.3,
+	);
+	$boldgrid_framework_configs['customizer-options']['typography']['selectors']['.call-to-action h3'] = array(
+		'type' => 'headings',
+		'round' => 'floor',
+		'amount' => 3.45,
+	);
+	$boldgrid_framework_configs['customizer-options']['typography']['selectors']['.mod-alpha h3'] = array(
+		'type' => 'headings',
+		'round' => 'floor',
+		'amount' => 2.6,
+	);
 
 	// Social Icons.
 	$boldgrid_framework_configs['social-icons']['type'] = 'icon';

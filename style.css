@@ -249,7 +249,7 @@ input[type="submit"]:active,
 /*-----------------------------------------------
 ## Titles
 -----------------------------------------------*/
-.page-template-home .entry-title {
+.page-template-page_home .entry-title {
 	display: none;
 }
 .entry-title {
@@ -595,17 +595,17 @@ hr {
 /*-----------------------------------------------
 ## Home
 -----------------------------------------------*/
-.page-template-home .entry-title {
+.page-template-page_home .entry-title {
 	display: none;
 }
-.page-template-home .site-content {
+.page-template-page_home .site-content {
 	background: none;
 	padding-bottom: 0;
 	padding-top: 0;
 }
-.page-template-home .page-content,
-.page-template-home .entry-content,
-.page-template-home .entry-summary {
+.page-template-page_home .page-content,
+.page-template-page_home .entry-content,
+.page-template-page_home .entry-summary {
     margin: 0;
 }
 
@@ -733,6 +733,6 @@ html, body, .site, .site-content {
 .palette-primary #boldgrid-sticky-filler {
     background: url( 'images/concrete_seamless.png' ) repeat;
 }
-body.page-template-home {
+body.page-template-page_home {
 	height:	auto;
 }

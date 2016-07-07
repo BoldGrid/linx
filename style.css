@@ -107,7 +107,7 @@ p {
 	padding-bottom: 5px;
 }
 .entry-content ol {
-    margin-left: 0;
+	margin-left: 0;
 }
 .entry-content ul,
 .entry-content ol {
@@ -126,9 +126,9 @@ p {
 	line-height: 24px;
 }
 .entry-title {
-    font-weight: 400;
-    text-align: center;
-    text-transform: uppercase;
+	font-weight: 400;
+	text-align: center;
+	text-transform: uppercase;
 }
 .button-primary,
 .button-secondary,
@@ -199,7 +199,7 @@ input[type="submit"]:active,
 /* # Plugins */
 /* ## WooCommerce */
 .woocommerce p.buttons a.button:hover {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 /* # Footer */
@@ -207,11 +207,11 @@ input[type="submit"]:active,
 	text-align: center;
 }
 .site-footer a {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 .site-footer a:hover,
 .site-footer a:focus {
-    text-decoration: none;
+	text-decoration: none;
 }
 #footer-widget-area {
     text-align: left;
@@ -253,9 +253,9 @@ input[type="submit"]:active,
 	display: none;
 }
 .entry-title {
-    clear: both;
-    margin: 0 -15px 75px;
-    padding: 20px;
+	clear: both;
+	margin: 0 -15px 75px;
+	padding: 20px;
 }
 .archive .entry-title {
 	background: none;
@@ -266,10 +266,10 @@ input[type="submit"]:active,
 	margin: 0 auto;
 }
 .heading h3 {
-    margin-top: 10px;
+	margin-top: 10px;
 }
 .heading {
-    margin-bottom: 15px;
+	margin-bottom: 15px;
 }
 
 /*-----------------------------------------------
@@ -284,7 +284,7 @@ input[type="submit"]:active,
 input[type="submit"],
 .form-submit .submit {
 	border: 0 none;
-    padding: 14px 24px;
+	padding: 14px 24px;
 	/* Border Radius */
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
@@ -305,7 +305,7 @@ input[type="submit"],
 .button-primary,
 .button-secondary {
 	display: block;
-    margin-top: 15px;
+	margin-top: 15px;
 }
 
 /* sm */
@@ -313,7 +313,7 @@ input[type="submit"],
 	.button-primary,
 	.button-secondary {
 		display: inline;
-    	margin-top: 0;
+		margin-top: 0;
 	}
 	.gridblock .p-button-secondary {
 		margin: 45px 0;
@@ -373,8 +373,8 @@ hr {
 ## Main Menu
 -----------------------------------------------*/
 .navbar-default {
-    background: none;
-    border: none;
+	background: none;
+	border: none;
 }
 
 /* Active & Hover */
@@ -389,7 +389,7 @@ hr {
 
 .navbar-nav .dropdown-menu {
 	border: none;
-    border-radius: 0px;
+	border-radius: 0px;
 }
 
 .navbar-nav .dropdown-menu > li > a {
@@ -429,11 +429,11 @@ hr {
 	margin-bottom: 0;
 }
 .footer-center-items {
-    padding: 0;
+	padding: 0;
 }
 .footer-center-items li::after,
 .boldgrid-framework-menu li::after {
-    content: "";
+	content: "";
 }
 
 /*-----------------------------------------------
@@ -444,12 +444,12 @@ hr {
 	margin-top: 1em;
 }
 #menu-social ul li {
-    position: relative;
-    display:  inline-block;
+	position: relative;
+	display:  inline-block;
 }
 #menu-social ul li a {
 	display: inline-block;
-    padding: 0 7px;
+	padding: 0 7px;
 }
 
 /*------------------------------------------------------------------------
@@ -480,14 +480,14 @@ hr {
 	padding-left: 0px;
 }
 .gridblock li:before {
-    content: '';
-    display: inline-block;
-    height: 6px;
-    margin-right: 8px;
-    position: relative;
-    width: 6px;
-    bottom: 0px;
-    border-radius: 50%;
+	content: '';
+	display: inline-block;
+	height: 6px;
+	margin-right: 8px;
+	position: relative;
+	width: 6px;
+	bottom: 0px;
+	border-radius: 50%;
 }
 
 /*------------------------------------------------------------------------
@@ -552,7 +552,7 @@ hr {
 ## Alpha
 -----------------------------------------------*/
 .mod-alpha {
-    padding: 10px 0 35px;
+	padding: 10px 0 35px;
 }
 .mod-alpha h2 {
 	margin: 0;
@@ -606,7 +606,7 @@ hr {
 .page-template-page_home .page-content,
 .page-template-page_home .entry-content,
 .page-template-page_home .entry-summary {
-    margin: 0;
+	margin: 0;
 }
 
 /*-----------------------------------------------
@@ -641,13 +641,13 @@ hr {
 ------------------------------------------------------------------------*/
 .widget-area {
 	margin-top: 25px;
-    padding: 25px;
+	padding: 25px;
 }
 .nav-next > a {
-    float: right;
+	float: right;
 }
 .edit-link {
-    float: left;
+	float: left;
 }
 
 /* Search Form */
@@ -657,12 +657,12 @@ hr {
 
 /* Comments */
 .comment-form-comment label {
-    float: left;
-    padding-right: 15px;
+	float: left;
+	padding-right: 15px;
 }
 #reply-title {
-    clear: both;
-    padding-top: 15px;
+	clear: both;
+	padding-top: 15px;
 }
 
 /* Buttons */
@@ -684,10 +684,10 @@ hr {
 ## WooCommerce
 -----------------------------------------------*/
 .woocommerce p.buttons a.button:hover {
-    background-image: none;
+	background-image: none;
 }
 body.single-product #content {
-    width: 100%;
+	width: 100%;
 }
 #tab-description,
 #tab-reviews {
@@ -731,7 +731,7 @@ html, body, .site, .site-content {
 }
 .palette-primary #boldgrid-sticky-push,
 .palette-primary #boldgrid-sticky-filler {
-    background: url( 'images/concrete_seamless.png' ) repeat;
+	background: url( 'images/concrete_seamless.png' ) repeat;
 }
 body.page-template-page_home {
 	height:	auto;

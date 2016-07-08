@@ -1,14 +1,13 @@
 /*
 Theme Name: Linx
 Author: The BoldGrid Team
-Theme URI: http://www.boldgrid.com/linx
-Author URI: http://www.boldgrid.com/the-team
+Theme URI: https://www.boldgrid.com/linx
+Author URI: https://www.boldgrid.com/the-team
 Description: Designed specifically for use with the BoldGrid suite of plugins, all BoldGrid themes are highly customizable, responsive to a wide range of devices, and of course, beautiful. Every BoldGrid theme includes five pre-selected color palettes and an advanced tool for creating your own unique palette. In addition, all themes feature multiple menu locations and widget areas, which are easily customizable to suit your needs. So if you're looking for a theme that looks great, feels modern and professional, and offers plenty of features to make it your own, you've chosen well.
-Version: 1.18
+Version: 1.19
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: boldgrid-linx
-Template: prime
 Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-layout, rtl-language-support, translation-ready, boldgrid-theme-33
 */
 
@@ -30,7 +29,6 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 	## Social Menus
 # GridBLocks
 	## Positioning
-	## Alternates
 # Modules
 	## Universal
 	## Global
@@ -38,9 +36,9 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 	## Beta
 # Pages
 	## Home
-	## Gallery
 # Posts
 # Plugins
+	## WP Canvas Gallery
 	## WooCommerce
 # Footer
 ------------------------------------------------------------------------*/
@@ -52,18 +50,11 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 /*-----------------------------------------------
 ## Background
 -----------------------------------------------*/
-body {
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
 .background-custom {
 	min-height: 600px;
-	margin-bottom: -15px;
 }
 .background-primary,
-.site-content, .hentry {
+.site-content {
 	background: url('images/shadow.png') center 68px no-repeat,
 		url('images/concrete_seamless.png') repeat;
 }
@@ -79,7 +70,7 @@ body {
 .mce-content-body .entry-content {
 	padding-top: 50px;
 }
-.entry-content,
+.home .background-primary,
 .archive .site-content,
 .search .site-content {
 	background: url('images/shadow.png') center 8px no-repeat,
@@ -99,20 +90,76 @@ body {
 /*-----------------------------------------------
 ## Positioning
 -----------------------------------------------*/
+.site-content {
+	padding-bottom: 50px;
+}
 
 /*-----------------------------------------------
 ## Typography
 -----------------------------------------------*/
+.mod-alpha h2 {
+	font-style: italic;
+	padding-top: 15px;
+}
 p {
 	padding-bottom: 5px;
-}
-.entry-content ol {
-	margin-left: 0;
 }
 .entry-content ul,
 .entry-content ol {
 	padding-left: 16px;
 }
+.entry-content ol {
+	margin-left: 0;
+}
+.p-button-primary,
+.p-button-secondary {
+	white-space: nowrap;
+}
+#menu-social ul li a {
+	-webkit-font-smoothing: antialiased;
+}
+.button-primary:hover,
+.button-primary:focus,
+.button-primary:active,
+.button-secondary:hover,
+.button-secondary:active,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+input[type="submit"]:active,
+.form-submit .submit:hover,
+.form-submit .submit:focus,
+.form-submit .submit:active,
+.open > .dropdown-toggle.button-primary,
+.woocommerce p.buttons a.button:hover,
+.woocommerce p.buttons a.button:focus,
+.site-footer a:hover,
+.site-footer a:focus {
+	text-decoration: none;
+}
+.site-footer a {
+	text-decoration: underline;
+}
+.entry-title,
+.secondary-menu,
+.tertiary-menu,
+.footer-center-menu,
+.mod-alpha h2,
+.mod-alpha h3,
+.mod-beta img,
+.gallery-icon,
+.site-footer,
+.disabled-footer .site-footer {
+	text-align: center;
+}
+#footer-widget-area {
+	text-align: left;
+}
+.call-to-action h2,
+.call-to-action h3 {
+	text-align: right;
+}
+
+/* xs */
 .xs-center,
 .mod-img,
 .mod-img-circle,
@@ -121,108 +168,6 @@ p {
 .button-primary {
 	text-align: center;
 }
-.entry-content ul,
-.entry-content ol {
-	line-height: 24px;
-}
-.entry-title {
-	font-weight: 400;
-	text-align: center;
-	text-transform: uppercase;
-}
-.button-primary,
-.button-secondary,
-input[type="submit"],
-.form-submit .submit {
-	font-family: 'Lato';
-	font-size: 14px;
-	font-weight: 300;
-	letter-spacing: 1px;
-}
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
-	font-family: 'Tinos';
-}
-.button-primary:hover,
-.button-primary:focus,
-.button-primary:active,
-input[type="submit"]:hover,
-input[type="submit"]:focus,
-input[type="submit"]:active,
-.form-submit .submit:hover,
-.form-submit .submit:focus,
-.form-submit .submit:active,
-.open > .dropdown-toggle.button-primary {
-	text-decoration: none;
-}
-.button-secondary:hover,
-.button-secondary:active {
-	text-decoration: none;
-}
-
-/* Positioning */
-.p-button-primary,
-.p-button-secondary {
-	white-space: nowrap;
-}
-
-/* # Header */
-.site-title {
-	font-weight: normal;
-}
-
-.secondary-menu,
-.tertiary-menu,
-.footer-center-menu {
-	text-align: center;
-}
-/* ## Social Menus */
-#menu-social ul li a {
-	-webkit-font-smoothing: antialiased;
-}
-
-/* Beta */
-.mod-beta img {
-	text-align: center;
-}
-
-/* # Pages */
-/* ## Gallery */
-.gallery-icon {
-	text-align: center;
-}
-
-/* # Plugins */
-/* ## WooCommerce */
-.woocommerce p.buttons a.button:hover {
-	text-decoration: none;
-}
-
-/* # Footer */
-.site-footer {
-	text-align: center;
-}
-.site-footer a {
-	text-decoration: underline;
-}
-.site-footer a:hover,
-.site-footer a:focus {
-	text-decoration: none;
-}
-#footer-widget-area {
-    text-align: left;
-}
-
-/* Disabled Footer */
-.disabled-footer .site-footer {
-	text-align: center;
-}
-
-/* xs */
 .navbar-default .navbar-nav > li > a {
 	text-align: left;
 }
@@ -275,6 +220,10 @@ input[type="submit"]:active,
 /*-----------------------------------------------
 ## Links
 -----------------------------------------------*/
+/* Removes blue box in Chrome */
+*:focus {
+	outline: 0;
+}
 
 /*-----------------------------------------------
 ## Buttons
@@ -328,10 +277,6 @@ hr {
 	height: 2px;
 }
 
-.row > .wc-gallery {
-	width: 100%;
-}
-
 /*------------------------------------------------------------------------
 # Header
 ------------------------------------------------------------------------*/
@@ -340,11 +285,12 @@ hr {
 	min-height: 600px;
 	padding-top: 150px;
 }
-.call-to-action h2 {
+.call-to-action h2,
+.call-to-action h3 {
 	padding: 15px 0;
 }
 .call-to-action {
-	margin-bottom:-10px;
+	margin-bottom: -10px;
 }
 
 /* sm */
@@ -352,7 +298,6 @@ hr {
 	.site-branding {
 		margin: 0;
 	}
-
 }
 
 /* md */
@@ -376,22 +321,10 @@ hr {
 	background: none;
 	border: none;
 }
-
-/* Active & Hover */
-.navbar-default .navbar-nav .dropdown-menu > .active > a,
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus,
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-
-}
-
 .navbar-nav .dropdown-menu {
 	border: none;
 	border-radius: 0px;
 }
-
 .navbar-nav .dropdown-menu > li > a {
 	padding: 10px 20px;
 }
@@ -473,13 +406,13 @@ hr {
 }
 
 /*-----------------------------------------------
-## Alternates
+## Et Cetera
 -----------------------------------------------*/
 .gridblock li {
 	list-style-type: none;
 	padding-left: 0px;
 }
-.gridblock li:before {
+.gridblock li::before {
 	content: '';
 	display: inline-block;
 	height: 6px;
@@ -539,11 +472,12 @@ hr {
 /*-----------------------------------------------
 ## Global
 -----------------------------------------------*/
-/* Blockquotes */
+blockquote,
 .mod-blockquote {
 	padding-top: 0;
 	padding-bottom: 0;
 }
+blockquote p,
 .mod-blockquote p {
 	padding-left: 15px;
 }
@@ -554,16 +488,10 @@ hr {
 .mod-alpha {
 	padding: 10px 0 35px;
 }
-.mod-alpha h2 {
-	margin: 0;
-}
 
 /*-----------------------------------------------
 ## Beta
 -----------------------------------------------*/
-/*.mod-beta {
-	padding: 25px 50px;
-}*/
 .mod-beta h2 {
 	margin-bottom: 20px;
 }
@@ -588,52 +516,22 @@ hr {
 /*------------------------------------------------------------------------
 # Pages
 ------------------------------------------------------------------------*/
-.site-content {
-	padding-bottom: 50px;
-}
 
 /*-----------------------------------------------
 ## Home
 -----------------------------------------------*/
-.page-template-page_home .entry-title {
+.page-template-page_home-php .entry-title {
 	display: none;
 }
-.page-template-page_home .site-content {
+.page-template-page_home-php .site-content {
 	background: none;
 	padding-bottom: 0;
 	padding-top: 0;
 }
-.page-template-page_home .page-content,
-.page-template-page_home .entry-content,
-.page-template-page_home .entry-summary {
+.page-template-page_home-php .page-content,
+.page-template-page_home-php .entry-content,
+.page-template-page_home-php .entry-summary {
 	margin: 0;
-}
-
-/*-----------------------------------------------
-## Gallery
------------------------------------------------*/
-.gallery-icon {
-	cursor: pointer;
-	max-width: 100%;
-	max-height: 100%;
-	overflow: hidden;
-	position: relative;
-	width: 100%;
-	/* Transition */
-	-webkit-transition: all .2s ease-in-out;
-	transition: all .2s ease-in-out;
-}
-.gallery-icon:hover,
-.gallery-icon:focus,
-.gallery-icon:active {
-	filter: brightness(60%);
-	/* Transform */
-	/*-webkit-transform: scale(1.1);*/
-	/*transform: scale(1.1);*/
-}
-.gallery-icon img {
-	position: relative;
-	z-index: 1;
 }
 
 /*------------------------------------------------------------------------
@@ -681,6 +579,33 @@ hr {
 ------------------------------------------------------------------------*/
 
 /*-----------------------------------------------
+## WP Canvas Gallery
+-----------------------------------------------*/
+.gallery-icon {
+	cursor: pointer;
+	max-width: 100%;
+	max-height: 100%;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	/* Transition */
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+}
+.gallery-icon:hover,
+.gallery-icon:focus,
+.gallery-icon:active {
+	filter: brightness(60%);
+}
+.gallery-icon img {
+	position: relative;
+	z-index: 1;
+}
+.row > .wc-gallery {
+	width: 100%;
+}
+
+/*-----------------------------------------------
 ## WooCommerce
 -----------------------------------------------*/
 .woocommerce p.buttons a.button:hover {
@@ -705,8 +630,6 @@ body.single-product #content {
 .site-info {
 	margin-top: 15px;
 }
-
-/* Social Media */
 .social {
 	margin-top: 30px;
 }
@@ -720,7 +643,7 @@ body.single-product #content {
 	url('images/concrete_seamless.png') repeat;
 }
 
-/** Sticky Footer **/
+/* Sticky Footer */
 html, body, .site, .site-content {
 	height: 100%;
 }

@@ -75,8 +75,7 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 	background: url('images/shadow.png') center 8px no-repeat,
 		url('images/concrete_seamless.png') repeat;
 }
-.background-primary,
-.site-content {
+.background-primary{
 	padding-top: 0;
 }
 .background-secondary {
@@ -91,6 +90,7 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 -----------------------------------------------*/
 .site-content {
 	padding-bottom: 50px;
+	padding-top: 0;
 }
 
 /*-----------------------------------------------
@@ -147,18 +147,7 @@ input[type="submit"]:active,
 .mod-beta img,
 .gallery-icon,
 .site-footer,
-.disabled-footer .site-footer {
-	text-align: center;
-}
-#footer-widget-area {
-	text-align: left;
-}
-.call-to-action h2,
-.call-to-action h3 {
-	text-align: right;
-}
-
-/* xs */
+.disabled-footer .site-footer,
 .xs-center,
 .mod-img,
 .mod-img-circle,
@@ -167,8 +156,13 @@ input[type="submit"]:active,
 .button-primary {
 	text-align: center;
 }
+#footer-widget-area,
 .navbar-default .navbar-nav > li > a {
 	text-align: left;
+}
+.call-to-action h2,
+.call-to-action h3 {
+	text-align: right;
 }
 
 /* sm */
@@ -233,7 +227,6 @@ input[type="submit"],
 .form-submit .submit {
 	border: 0 none;
 	padding: 14px 24px;
-	/* Border Radius */
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
 	border-radius: 6px;
@@ -477,17 +470,17 @@ blockquote p,
 /*-----------------------------------------------
 ## Home
 -----------------------------------------------*/
-.page-template-page_home-php .entry-title {
+.page-template-page_home .entry-title {
 	display: none;
 }
-.page-template-page_home-php .site-content {
+.page-template-page_home .site-content {
 	background: none;
 	padding-bottom: 0;
 	padding-top: 0;
 }
-.page-template-page_home-php .page-content,
-.page-template-page_home-php .entry-content,
-.page-template-page_home-php .entry-summary {
+.page-template-page_home .page-content,
+.page-template-page_home .entry-content,
+.page-template-page_home .entry-summary {
 	margin: 0;
 }
 
@@ -545,7 +538,6 @@ blockquote p,
 	overflow: hidden;
 	position: relative;
 	width: 100%;
-	/* Transition */
 	-webkit-transition: all .2s ease-in-out;
 	transition: all .2s ease-in-out;
 }

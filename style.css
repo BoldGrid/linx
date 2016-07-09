@@ -19,7 +19,6 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 	## Positioning
 	## Typography
 	## Titles
-	## Links
 	## Buttons
 	## Et Cetera
 # Header
@@ -207,14 +206,6 @@ input[type="submit"]:active,
 }
 .heading {
 	margin-bottom: 15px;
-}
-
-/*-----------------------------------------------
-## Links
------------------------------------------------*/
-/* Removes blue box in Chrome */
-*:focus {
-	outline: 0;
 }
 
 /*-----------------------------------------------

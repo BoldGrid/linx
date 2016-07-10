@@ -562,15 +562,6 @@ body.single-product #content {
 	url('images/concrete_seamless.png') repeat;
 }
 
-/* Sticky Footer */
-html, body, .site, .site-content {
-	height: 100%;
-}
-#boldgrid-sticky-wrap {
-	min-height: 100%;
-	height: auto !important;
-	height: 100%;
-}
 .palette-primary #boldgrid-sticky-push,
 .palette-primary #boldgrid-sticky-filler {
 	background: url( 'images/concrete_seamless.png' ) repeat;

@@ -31,6 +31,9 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	// Give the default page a regular container.
 	$boldgrid_framework_configs['template']['pages']['default']['container_class'] = 'container';
 
+	// Set Entry Header to Fluid Width Container.
+	$boldgrid_framework_configs['template']['entry-header'] = 'fluid';
+
 	// Assign menus, widgets, and actions to locations in generic header template.
 	$boldgrid_framework_configs['template']['locations']['header'] = array(
 		'1' => array( '[widget]boldgrid-widget-2' ),

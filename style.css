@@ -59,9 +59,10 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 .post-title-hidden .entry-title {
 	display: none;
 }
+.page-template-page_home .hentry,
 .post-title-hidden .site-content,
 .mce-content-body {
-	background: url('images/shadow.png') center 8px no-repeat,
+	background: url('images/shadow.png') center 0px no-repeat,
 		url('images/concrete_seamless.png') repeat;
 }
 .post-title-hidden .entry-content,

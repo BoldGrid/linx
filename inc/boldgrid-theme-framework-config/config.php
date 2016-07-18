@@ -26,13 +26,13 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	$boldgrid_framework_configs['template']['header'] = 'generic';
 
 	// Give page_home.php a fluid container.
-	$boldgrid_framework_configs['template']['pages']['page_home.php']['container_class'] = 'container-fluid';
+	$boldgrid_framework_configs['template']['pages']['page_home.php']['entry-content'] = 'container-fluid';
 
 	// Give the default page a regular container.
-	$boldgrid_framework_configs['template']['pages']['default']['container_class'] = 'container';
+	$boldgrid_framework_configs['template']['pages']['default']['entry-content'] = 'container';
 
-	// Set Entry Header to Fluid Width Container.
-	$boldgrid_framework_configs['template']['entry-header'] = 'fluid';
+	// Give the default page a regular container.
+	$boldgrid_framework_configs['template']['pages']['default']['entry-header'] = 'container-fluid';
 
 	// Assign menus, widgets, and actions to locations in generic header template.
 	$boldgrid_framework_configs['template']['locations']['header'] = array(

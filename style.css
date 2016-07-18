@@ -84,6 +84,13 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 	margin-top: -15px;
 	padding: 50px 25px;
 }
+.single .site-content {
+	background: url('images/concrete_seamless.png') repeat;
+}
+.single h1.entry-title {
+	margin: 0;
+	background: none;
+}
 
 /*-----------------------------------------------
 ## Positioning

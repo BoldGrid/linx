@@ -194,8 +194,8 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 			<div class="row background-custom">
 				<div class="col-md-6"></div>
 				<div class="col-md-6 call-to-action">
-					<h5 style="text-align: right;">Excellence That Speaks For Itself</h5>
-					<h2 style="text-align: right;">ONE PIECE CAN MAKE A WORLD OF DIFFERENCE</h2>
+					<h2 style="text-align: right;">Excellence That Speaks For Itself</h5>
+					<h3 style="text-align: right;">ONE PIECE CAN MAKE A WORLD OF DIFFERENCE</h2>
 					<p class="p-button-primary" style="text-align: right;">
 						<a href="about-us" class="button-primary" style="text-align: center;">LEARN MORE</a>
 					</p>

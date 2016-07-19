@@ -99,7 +99,9 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 	padding-bottom: 50px;
 	padding-top: 0;
 }
-
+.boldgrid-widget p:empty {
+	display: none;
+}
 /*-----------------------------------------------
 ## Typography
 -----------------------------------------------*/

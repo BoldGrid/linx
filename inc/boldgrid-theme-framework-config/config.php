@@ -189,20 +189,17 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	/**
 	 * Widgets
 	 */
-	$widget_markup['call-to-action'] = <<<HTML
+	$widget_markup['call-to-action'] = '
 		<div class="container-fluid">
 			<div class="row background-custom">
 				<div class="col-md-6"></div>
 				<div class="col-md-6 call-to-action">
-					<h2 style="text-align: right;">Excellence That Speaks For Itself</h5>
-					<h3 style="text-align: right;">ONE PIECE CAN MAKE A WORLD OF DIFFERENCE</h2>
-					<p class="p-button-primary" style="text-align: right;">
-						<a href="about-us" class="button-primary" style="text-align: center;">LEARN MORE</a>
-					</p>
+					<h2 style="text-align: right;">Excellence That Speaks For Itself</h2>
+					<h3 style="text-align: right;">ONE PIECE CAN MAKE A WORLD OF DIFFERENCE</h3>
+					<p class="p-button-primary" style="text-align: right;"><a href="about-us" class="button-primary" style="text-align: center;">LEARN MORE</a></p>
 				</div>
 			</div>
-		</div>
-HTML;
+		</div>';
 
 	// Widget 1.
 	$boldgrid_framework_configs['widget']['widget_instances']['boldgrid-widget-1'][] = array(

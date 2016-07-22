@@ -453,6 +453,9 @@ blockquote p,
 	background: transparent;
 	border: none;
 }
+.search .jumbotron {
+	background: none;
+}
 /*-----------------------------------------------
 ## Home
 -----------------------------------------------*/

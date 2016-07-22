@@ -453,9 +453,12 @@ blockquote p,
 	background: transparent;
 	border: none;
 }
+/* Search Page */
 .search .jumbotron {
 	background: none;
+	text-align: center;
 }
+
 /*-----------------------------------------------
 ## Home
 -----------------------------------------------*/

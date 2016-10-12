@@ -214,6 +214,10 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	$boldgrid_framework_configs['widget']['sidebars']['boldgrid-widget-1']['name'] = 'Below Header';
 	$boldgrid_framework_configs['widget']['sidebars']['boldgrid-widget-2']['name'] = 'Above Header';
 
+	// Add clearfix to widget wrapping for backwards compat.
+	$before_widget = '<aside class="%2$s widget clearfix" id="%1$s">';
+	$boldgrid_framework_configs['widget']['sidebars']['boldgrid-widget-1']['before_bg_widget'] = $before_widget;
+
 	// Configs above will override framework defaults.
 	return $boldgrid_framework_configs;
 }

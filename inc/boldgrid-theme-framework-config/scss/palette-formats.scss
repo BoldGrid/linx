@@ -23,7 +23,9 @@
 	.site-title a,
 	.site-description,
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a,
-	.navbar-default .navbar-nav > li > a {
+	.navbar-default .navbar-nav > li > a,
+	.site-header .widget.well,
+	.site-header caption {
 		color: $text-contrast-palette-primary_1;
 	}
 
@@ -81,7 +83,8 @@
 	.mod-blockquote p,
 	.current_page_item a,
 	.disabled-footer .site-footer a,
-	.site-footer a {
+	.site-footer a,
+	.site-header .widget.well a {
 		color: $palette-primary_2;
 	}
 	.gridblock li::before {
@@ -107,6 +110,8 @@
 	}
 	.nav > li > a:hover,
 	.nav > li > a:focus,
+	.site-header .widget.well .nav > li > a:hover,
+	.site-header .widget.well .nav > li > a:focus,
 	.navbar-default .navbar-nav .dropdown-menu > .active > a,
 	.navbar-default .navbar-nav > .active > a,
 	.navbar-default .navbar-nav > .active > a:hover,

@@ -34,7 +34,8 @@
 	-----------------------------------------------*/
 	.button-primary,
 	.form-submit .submit,
-	input[type="submit"] {
+	input[type="submit"],
+	.pager li > a {
 		background: $palette-primary_2;
 		color: $text-contrast-palette-primary_2;
 		/* Box Shadow */
@@ -50,7 +51,9 @@
 	.form-submit .submit:active,
 	input[type="submit"]:hover,
 	input[type="submit"]:focus,
-	input[type="submit"]:active {
+	input[type="submit"]:active,
+	.pager li > a:active,
+	.pager li > a:hover {
 		background: $palette-primary_3;
 		color: $text-contrast-palette-primary_3;
 	}
@@ -81,6 +84,7 @@
 	.tertiary-menu li a,
 	.footer-center-menu li a,
 	.mod-blockquote p,
+	blockquote,
 	.current_page_item a,
 	.disabled-footer .site-footer a,
 	.site-footer a,

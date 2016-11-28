@@ -70,8 +70,7 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 	padding-top: 50px;
 }
 .home .background-primary,
-.archive .site-content,
-.search .site-content {
+.archive .site-content {
 	background: url('images/shadow.png') center 8px no-repeat,
 		url('images/concrete_seamless.png') repeat;
 }
@@ -85,7 +84,8 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 	padding: 50px 25px;
 }
 .error404 .site-content,
-.single .site-content {
+.single .site-content,
+.search .site-content {
 	background: url('images/concrete_seamless.png') repeat;
 }
 .single h1.entry-title {
@@ -277,6 +277,9 @@ hr {
 }
 .site-header .table > tbody > tr:nth-of-type(2n+1) {
 	background: transparent;
+}
+.pager li > a {
+	border: none;
 }
 
 /*------------------------------------------------------------------------

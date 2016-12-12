@@ -213,6 +213,9 @@ input[type="submit"]:active,
 .hentry {
 	margin: 0 auto;
 }
+.hentry:first-child ~ .hentry {
+	margin-top: 50px;
+}
 .heading h3 {
 	margin-top: 10px;
 }

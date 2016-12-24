@@ -53,8 +53,8 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 }
 .background-primary,
 .site-content {
-	background: url('images/shadow.png') center 68px no-repeat,
-		url('images/concrete_seamless.png') repeat;
+	background: url("images/shadow.png") center 68px no-repeat,
+	url("images/concrete_seamless.png") repeat;
 }
 .post-title-hidden .entry-title {
 	display: none;
@@ -62,8 +62,8 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 .page-template-page_home .hentry,
 .post-title-hidden .site-content,
 .mce-content-body {
-	background: url('images/shadow.png') center 0px no-repeat,
-		url('images/concrete_seamless.png') repeat;
+	background: url("images/shadow.png") center 0 no-repeat,
+	url("images/concrete_seamless.png") repeat;
 }
 .post-title-hidden .entry-content,
 .mce-content-body .entry-content {
@@ -71,22 +71,22 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 }
 .home .background-primary,
 .archive .site-content {
-	background: url('images/shadow.png') center 8px no-repeat,
-		url('images/concrete_seamless.png') repeat;
+	background: url("images/shadow.png") center 8px no-repeat,
+	url("images/concrete_seamless.png") repeat;
 }
-.background-primary{
+.background-primary {
 	padding-top: 0;
 }
 .background-secondary {
-	background: url('images/shadow.png') center 10px no-repeat,
-	url(images/concrete_seamless2.png) repeat;
 	margin-top: -15px;
 	padding: 50px 25px;
+	background: url("images/shadow.png") center 10px no-repeat,
+	url(images/concrete_seamless2.png) repeat;
 }
 .error404 .site-content,
 .single .site-content,
 .search .site-content {
-	background: url('images/concrete_seamless.png') repeat;
+	background: url("images/concrete_seamless.png") repeat;
 }
 .single h1.entry-title {
 	margin: 0;
@@ -97,8 +97,8 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 ## Positioning
 -----------------------------------------------*/
 .site-content {
-	padding-bottom: 50px;
 	padding-top: 0;
+	padding-bottom: 50px;
 }
 .boldgrid-widget p:empty {
 	display: none;
@@ -107,8 +107,8 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 ## Typography
 -----------------------------------------------*/
 .mod-alpha h2 {
-	font-style: italic;
 	padding-top: 15px;
+	font-style: italic;
 }
 p {
 	padding-bottom: 5px;
@@ -230,8 +230,8 @@ input[type="submit"]:active,
 .button-secondary,
 input[type="submit"],
 .form-submit .submit {
-	border: 0 none;
 	padding: 14px 24px;
+	border: 0 none;
 	border-radius: 6px;
 }
 
@@ -268,12 +268,12 @@ input[type="submit"],
 ## Et Cetera
 -----------------------------------------------*/
 hr {
-	border: 0;
 	height: 2px;
+	border: 0;
 }
 .well {
-	background: transparent;
 	border: none;
+	background: transparent;
 	box-shadow: none;
 }
 .site-header .table > tbody > tr:nth-of-type(2n+1) {
@@ -288,8 +288,8 @@ hr {
 ------------------------------------------------------------------------*/
 /* Call To Action */
 .call-to-action {
-	min-height: 600px;
 	padding-top: 150px;
+	min-height: 600px;
 }
 .call-to-action h2,
 .call-to-action h3 {
@@ -324,12 +324,12 @@ hr {
 ## Main Menu
 -----------------------------------------------*/
 .navbar-default {
-	background: none;
 	border: none;
+	background: none;
 }
 .navbar-nav .dropdown-menu {
 	border: none;
-	border-radius: 0px;
+	border-radius: 0;
 }
 .navbar-nav .dropdown-menu > li > a {
 	padding: 10px 20px;
@@ -356,8 +356,8 @@ hr {
 ## Other Menus
 -----------------------------------------------*/
 .boldgrid-framework-menu {
-	margin-left: -15px;
 	margin-right: -15px;
+	margin-left: -15px;
 }
 .secondary-menu li a,
 .tertiary-menu li a,
@@ -379,12 +379,12 @@ hr {
 ## Social Menus
 -----------------------------------------------*/
 #menu-social ul {
-	padding-left: 0px;
 	margin-top: 1em;
+	padding-left: 0;
 }
 #menu-social ul li {
 	position: relative;
-	display:  inline-block;
+	display: inline-block;
 }
 #menu-social ul li a {
 	display: inline-block;
@@ -395,18 +395,18 @@ hr {
 # GridBlocks
 ------------------------------------------------------------------------*/
 .gridblock li {
+	padding-left: 0;
 	list-style-type: none;
-	padding-left: 0px;
 }
 .gridblock li::before {
-	content: '';
-	display: inline-block;
-	height: 6px;
-	margin-right: 8px;
 	position: relative;
+	bottom: 0;
+	display: inline-block;
+	margin-right: 8px;
 	width: 6px;
-	bottom: 0px;
+	height: 6px;
 	border-radius: 50%;
+	content: "";
 }
 
 /*------------------------------------------------------------------------
@@ -462,8 +462,8 @@ blockquote p,
 ------------------------------------------------------------------------*/
 /* 404 Page */
 .error404 .list-group-item {
-	background: transparent;
 	border: none;
+	background: transparent;
 }
 /* Search Page */
 .search .jumbotron {
@@ -478,9 +478,9 @@ blockquote p,
 	display: none;
 }
 .page-template-page_home .site-content {
-	background: none;
-	padding-bottom: 0;
 	padding-top: 0;
+	padding-bottom: 0;
+	background: none;
 }
 .page-template-page_home .page-content,
 .page-template-page_home .entry-content,
@@ -519,8 +519,8 @@ blockquote p,
 
 /* Buttons */
 .form-submit .submit {
-	border: 0 none;
 	padding: 14px 24px;
+	border: 0 none;
 }
 .form-submit .submit {
 	border-radius: 6px;
@@ -534,12 +534,12 @@ blockquote p,
 ## WP Canvas Gallery
 -----------------------------------------------*/
 .gallery-icon {
-	cursor: pointer;
+	position: relative;
+	overflow: hidden;
 	max-width: 100%;
 	max-height: 100%;
-	overflow: hidden;
-	position: relative;
 	width: 100%;
+	cursor: pointer;
 	transition: all .2s ease-in-out;
 }
 .gallery-icon:hover,
@@ -573,9 +573,9 @@ body.single-product #content {
 # Footer
 ------------------------------------------------------------------------*/
 .site-footer {
-	background:url('images/shadow.png') center 10px no-repeat,
-	url('images/concrete_seamless.png') repeat;
 	padding: 30px 15px;
+	background: url("images/shadow.png") center 10px no-repeat,
+	url("images/concrete_seamless.png") repeat;
 }
 .site-info {
 	margin-top: 15px;
@@ -589,14 +589,14 @@ body.single-product #content {
 
 /* Disabled Footer */
 .disabled-footer .site-footer {
-	background:url('images/shadow.png') center 10px no-repeat,
-	url('images/concrete_seamless.png') repeat;
+	background: url("images/shadow.png") center 10px no-repeat,
+	url("images/concrete_seamless.png") repeat;
 }
 
 .palette-primary #boldgrid-sticky-push,
 .palette-primary #boldgrid-sticky-filler {
-	background: url( 'images/concrete_seamless.png' ) repeat;
+	background: url( "images/concrete_seamless.png" ) repeat;
 }
 body.page-template-page_home {
-	height:	auto;
+	height: auto;
 }

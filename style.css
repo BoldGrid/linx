@@ -232,8 +232,6 @@ input[type="submit"],
 .form-submit .submit {
 	border: 0 none;
 	padding: 14px 24px;
-	-webkit-border-radius: 6px;
-	-moz-border-radius: 6px;
 	border-radius: 6px;
 }
 
@@ -525,8 +523,6 @@ blockquote p,
 	padding: 14px 24px;
 }
 .form-submit .submit {
-	-webkit-border-radius: 6px;
-	-moz-border-radius: 6px;
 	border-radius: 6px;
 }
 
@@ -544,7 +540,6 @@ blockquote p,
 	overflow: hidden;
 	position: relative;
 	width: 100%;
-	-webkit-transition: all .2s ease-in-out;
 	transition: all .2s ease-in-out;
 }
 .gallery-icon:hover,

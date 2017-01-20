@@ -160,12 +160,12 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 		'round' => 'floor',
 		'amount' => 1.75,
 	);
-	$boldgrid_framework_configs['customizer-options']['typography']['selectors']['.call-to-action h2, .mod-alpha h2'] = array(
+	$boldgrid_framework_configs['customizer-options']['typography']['selectors']['.palette-primary .call-to-action h2, .mod-alpha h2'] = array(
 		'type' => 'headings',
 		'round' => 'floor',
 		'amount' => 1.3,
 	);
-	$boldgrid_framework_configs['customizer-options']['typography']['selectors']['.call-to-action h3'] = array(
+	$boldgrid_framework_configs['customizer-options']['typography']['selectors']['.palette-primary .call-to-action h3'] = array(
 		'type' => 'headings',
 		'round' => 'floor',
 		'amount' => 3.45,

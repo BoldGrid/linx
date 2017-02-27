@@ -70,9 +70,9 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 	padding-top: 50px;
 }
 .home .background-primary,
-.archive .site-content {
-	background: url("images/shadow.png") center 8px no-repeat,
-	url("images/concrete_seamless.png") repeat;
+.search .site-content {
+	background: url('images/shadow.png') center 8px no-repeat,
+	url('images/concrete_seamless.png') repeat;
 }
 .background-primary {
 	padding-top: 0;
@@ -85,9 +85,12 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 }
 .error404 .site-content,
 .single .site-content,
-.search .site-content {
-	background: url("images/concrete_seamless.png") repeat;
+.blog .site-content,
+.archive .site-content {
+	background: url('images/concrete_seamless.png') repeat;
 }
+.blog h1.entry-title,
+.archive h1.entry-title,
 .single h1.entry-title {
 	margin: 0;
 	background: none;

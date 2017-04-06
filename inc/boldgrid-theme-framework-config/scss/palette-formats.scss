@@ -57,7 +57,9 @@
 	}
 	.button-secondary:hover,
 	.button-secondary:focus,
-	.button-secondary:active  {
+	.button-secondary:active,
+	.mark,
+	mark {
 		background: $palette-primary_2;
 		color: $text-contrast-palette-primary_2;
 	}

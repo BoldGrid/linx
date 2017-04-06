@@ -43,20 +43,6 @@
 		-moz-box-shadow: 0 3px 0 0 $palette-primary_3;
 		box-shadow: 0 3px 0 0 $palette-primary_3;
 	}
-	.button-primary:hover,
-	.button-primary:focus,
-	.button-primary:active,
-	.form-submit .submit:hover,
-	.form-submit .submit:focus,
-	.form-submit .submit:active,
-	input[type="submit"]:hover,
-	input[type="submit"]:focus,
-	input[type="submit"]:active,
-	.pager li > a:active,
-	.pager li > a:hover {
-		background: $palette-primary_3;
-		color: $text-contrast-palette-primary_3;
-	}
 	.open > .dropdown-toggle.button-primary,
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
@@ -121,24 +107,32 @@
 	.navbar-default .navbar-nav > .active > a:hover,
 	.navbar-default .navbar-nav > .active > a:focus,
 	.navbar-default .navbar-nav > li > a:hover,
-	.navbar-default .navbar-nav > li > a:focus {
+	.navbar-default .navbar-nav > li > a:focus,
+	.button-primary:hover,
+	.button-primary:focus,
+	.button-primary:active,
+	.form-submit .submit:hover,
+	.form-submit .submit:focus,
+	.form-submit .submit:active,
+	input[type="submit"]:hover,
+	input[type="submit"]:focus,
+	input[type="submit"]:active,
+	.pager li > a:active,
+	.pager li > a:hover {
 		background: $palette-primary_3;
 		color: $text-contrast-palette-primary_3;
 	}
 	.secondary-menu .current_page_item a,
 	.tertiary-menu .current_page_item a,
 	.footer-center-menu  .current_page_item a,
-	.link-secondary {
-		color: $palette-primary_3;
-	}
-	.mod-blockquote {
-		border-left: 3px solid $palette-primary_3;
-	}
-
+	.link-secondary,
 	.mod-alpha h2,
 	.mod-alpha h3,
 	.mod-alpha h5 {
 		color: $palette-primary_3;
+	}
+	.mod-blockquote {
+		border-left: 3px solid $palette-primary_3;
 	}
 
 	/*-----------------------------------------------
@@ -149,27 +143,9 @@
 		background-color: $palette-primary_4;
 		color: $text-contrast-palette-primary_4;
 	}
-
 	.widget-title,
 	#reply-title  {
 		color: $text-contrast-palette-primary_4;
-	}
-
-	/*-----------------------------------------------
-	## Light Text
-	-----------------------------------------------*/
-	.comment-text {
-		background:#fff;
-	}
-
-	/*-----------------------------------------------
-	## Dark Text
-	-----------------------------------------------*/
-	/* sm */
-	@media (min-width: 768px) {
-		.navbar-default .navbar-nav .open .dropdown-menu > li > a {
-			color: #333333;
-		}
 	}
 
 	/*-----------------------------------------------
@@ -187,66 +163,5 @@
 			text-decoration: none;
 			color: $text-contrast-palette-primary_1;
 		}
-	}
-	.call-to-action {
-		background: rgba(0, 0, 0, .40);
-		color: #eee;
-	}
-	.call-to-action h2 {
-		border-bottom: 1px solid #eee;
-	}
-	.mod-beta img {
-		border: 5px solid #eee;
-		/* Box Shadow */
-		-webkit-box-shadow: 0px 7px 8px 0px rgba(150, 150, 150, 0.75);
-		-moz-box-shadow: 0px 7px 8px 0px rgba(150, 150, 150, 0.75);
-		box-shadow: 0px 7px 8px 0px rgba(150, 150, 150, 0.75);
-	}
-	.widget-area {
-		border: 1px solid #ccc;
-	}
-	.fa-facebook:hover,
-	.fa-facebook-f:hover,
-	.fa-facebook-official:hover,
-	.fa-facebook-square:hover {
-		color: #3b5998;
-	}
-	.fa-twitter:hover,
-	.fa-twitter-square:hover {
-		color: #00aced;
-	}
-	.fa-google:hover,
-	.fa-google-plus:hover,
-	.fa-google-plus-square:hover {
-		color: #dd4b39;
-	}
-	.fa-instagram:hover {
-		color: #517fa4;
-	}
-	.fa-linkedin:hover,
-	.fa-linkedin-square:hover {
-		color: #007bb6;
-	}
-	.fa-pinterest:hover,
-	.fa-pinterest-p:hover,
-	.fa-pinterest-square:hover {
-		color: #cb2027;
-	}
-	.fa-youtube:hover,
-	.fa-youtube-play:hover,
-	.fa-youtube-square:hover {
-		color: #bb0000;
-	}
-	.woocommerce #respond input#submit,
-	.woocommerce a.button,
-	.woocommerce button.button,
-	.woocommerce input.button,
-	.woocommerce p.buttons a.button {
-		background-color: #a46497;
-		color: #fff;
-	}
-	.woocommerce p.buttons a.button:hover {
-		background-color: #dad8da;
-		color: #515151;
 	}
 }

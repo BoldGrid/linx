@@ -608,9 +608,9 @@ blockquote p,
 /*-----------------------------------------------
 ## WooCommerce
 -----------------------------------------------*/
-#tab-description,
-#tab-reviews {
+.panel {
 	background: none;
+	box-shadow: none;
 }
 .woocommerce-account p.order-again .btn.button-primary {
 	padding: 10px 2px;

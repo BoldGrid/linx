@@ -79,9 +79,15 @@
 	.site-header .widget.well a {
 		color: $palette-primary_2;
 	}
-	ul.products li.product .price {
+	ul.products li.product .price,
+	.woocommerce-MyAccount-navigation-link a {
 		color: $palette-primary_2 !important;
 	}
+	.woocommerce-MyAccount-navigation-link a:hover,
+	.woocommerce-MyAccount-navigation-link .color1-background-color {
+		background: $palette-primary_2 !important;
+		color: $text-contrast-palette-primary_2 !important;
+	}	
 	.gridblock li::before {
 		background-color: $palette-primary_2;
 	}

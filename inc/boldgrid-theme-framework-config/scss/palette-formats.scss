@@ -175,3 +175,7 @@
 .palette-primary.woocommerce-page .color1-color {
 	color: $palette-primary_2 !important;
 }
+.palette-primary.woocommerce div.product .stock,
+.palette-primary.woocommerce div.product .stock.out-of-stock {
+	color: $palette-primary_2;
+}

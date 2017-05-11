@@ -12,7 +12,6 @@
 	}
 	.background-secondary,
 	.dropdown-menu,
-	.dropdown-toggle,
 	.navbar-default .navbar-nav > li > a,
 	.site-title a,
 	.background-secondary h2,
@@ -28,6 +27,12 @@
 	.site-header caption {
 		color: $text-contrast-palette-primary_1;
 	}
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color: $text-contrast-palette-primary_1;
+	}
+	.navbar-default .navbar-toggle {
+		border-color: $text-contrast-palette-primary_1;
+	}	
 
 	/*-----------------------------------------------
 	## 2
@@ -43,7 +48,6 @@
 		-moz-box-shadow: 0 3px 0 0 $palette-primary_3;
 		box-shadow: 0 3px 0 0 $palette-primary_3;
 	}
-	.open > .dropdown-toggle.button-primary,
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
 	.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
@@ -135,6 +139,14 @@
 	}
 	.mod-blockquote {
 		border-left: 3px solid $palette-primary_3;
+	}
+	.navbar-default .navbar-toggle:hover,
+	.navbar-default .navbar-toggle:focus {
+		background: $palette-primary_3;
+	}
+	.navbar-default .navbar-toggle:hover .icon-bar,
+	.navbar-default .navbar-toggle:focus .icon-bar {
+		background: $text-contrast-palette-primary_3;
 	}
 
 	/*-----------------------------------------------

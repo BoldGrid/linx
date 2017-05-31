@@ -1,9 +1,4 @@
 /*------------------------------------------------------------------------
-# Variables
-------------------------------------------------------------------------*/
-$rgba_3 : rgba($palette-primary_3, 0.75);
-
-/*------------------------------------------------------------------------
 # Palettes
 ------------------------------------------------------------------------*/
 .palette-primary {
@@ -152,18 +147,6 @@ $rgba_3 : rgba($palette-primary_3, 0.75);
 	.navbar-default .navbar-toggle:hover .icon-bar,
 	.navbar-default .navbar-toggle:focus .icon-bar {
 		background: $text-contrast-palette-primary_3;
-	}
-
-	/* Gallery Captions */
-	.wc-gallery-captions-showon .gallery-caption, 
-	.wc-gallery-captions-onhover .gallery-caption {
-		background: $rgba_3;
-		color: $text-contrast-palette-primary_3;
-	}
-	.wc-gallery-captions-show .gallery-caption,
-	.wc-gallery-captions-onpopup .gallery-caption  {
-		background: $palette-primary_3;
-		color: $text-contrast-palette-primary_3;
 	}
 
 	/*-----------------------------------------------

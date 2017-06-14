@@ -184,7 +184,8 @@
 # Additional Body Classes
 ------------------------------------------------------------------------*/
 .palette-primary.woocommerce .color1-color,
-.palette-primary.woocommerce-page .color1-color {
+.palette-primary.woocommerce-page .color1-color,
+.palette-primary.woocommerce div.product span.price {
 	color: $palette-primary_2 !important;
 }
 .palette-primary.woocommerce div.product .stock,

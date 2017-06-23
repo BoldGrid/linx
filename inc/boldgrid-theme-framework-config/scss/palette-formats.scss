@@ -38,8 +38,6 @@
 	## 2
 	-----------------------------------------------*/
 	.button-primary,
-	.form-submit .submit,
-	input[type="submit"],
 	.pager li > a {
 		background: $palette-primary_2;
 		color: $text-contrast-palette-primary_2;
@@ -55,10 +53,7 @@
 	.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus,
 	.navbar-default .navbar-nav > .open > a,
 	.navbar-default .navbar-nav > .open > a:hover,
-	.navbar-default .navbar-nav > .open > a:focus {
-		background: $palette-primary_2;
-		color: $text-contrast-palette-primary_2;
-	}
+	.navbar-default .navbar-nav > .open > a:focus,
 	.button-secondary:hover,
 	.button-secondary:focus,
 	.button-secondary:active,
@@ -71,7 +66,6 @@
 		background: $palette-primary_2;
 	}
 	a,
-	.link-primary,
 	.secondary-menu li a,
 	.tertiary-menu li a,
 	.footer-center-menu li a,
@@ -117,12 +111,6 @@
 	.button-primary:hover,
 	.button-primary:focus,
 	.button-primary:active,
-	.form-submit .submit:hover,
-	.form-submit .submit:focus,
-	.form-submit .submit:active,
-	input[type="submit"]:hover,
-	input[type="submit"]:focus,
-	input[type="submit"]:active,
 	.pager li > a:active,
 	.pager li > a:hover {
 		background: $palette-primary_3;
@@ -130,7 +118,7 @@
 	}
 	.secondary-menu .current_page_item a,
 	.tertiary-menu .current_page_item a,
-	.footer-center-menu  .current_page_item a,
+	.footer-center-menu .current_page_item a,
 	.link-secondary,
 	.mod-alpha h2,
 	.mod-alpha h3,

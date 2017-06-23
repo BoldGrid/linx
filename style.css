@@ -124,10 +124,6 @@ p {
 .entry-content ol {
 	margin-left: 0;
 }
-.p-button-primary,
-.p-button-secondary {
-	white-space: nowrap;
-}
 #menu-social ul li a {
 	-webkit-font-smoothing: antialiased;
 }
@@ -136,12 +132,6 @@ p {
 .button-primary:active,
 .button-secondary:hover,
 .button-secondary:active,
-input[type="submit"]:hover,
-input[type="submit"]:focus,
-input[type="submit"]:active,
-.form-submit .submit:hover,
-.form-submit .submit:focus,
-.form-submit .submit:active,
 .open > .dropdown-toggle.button-primary,
 .site-footer a:hover,
 .site-footer a:focus {
@@ -229,9 +219,7 @@ input[type="submit"]:active,
 ## Buttons
 -----------------------------------------------*/
 .button-primary,
-.button-secondary,
-input[type="submit"],
-.form-submit .submit {
+.button-secondary {
 	padding: 14px 24px;
 	border: 0 none;
 	border-radius: 6px;
@@ -343,7 +331,6 @@ hr {
 .nav .open > a:focus,
 .nav .open > a:hover {
 	background: none;
-	border: none; 
 }
 
 /* sm */
@@ -394,11 +381,6 @@ hr {
 -----------------------------------------------*/
 #menu-social ul {
 	margin-top: 1em;
-	padding-left: 0;
-}
-#menu-social ul li {
-	position: relative;
-	display: inline-block;
 }
 #menu-social ul li a {
 	display: inline-block;
@@ -543,43 +525,16 @@ blockquote p,
 /*------------------------------------------------------------------------
 # Posts
 ------------------------------------------------------------------------*/
-.widget-area {
-	border: 1px solid #ccc;
-	margin-top: 25px;
-	padding: 25px;
-}
-.nav-next > a {
-	float: right;
-}
 .edit-link {
 	float: left;
 }
 
-/* Search Form */
-.form-control {
-	display: inline-block;
-}
-
 /* Comments */
-.comment-form-comment label {
-	float: left;
-	padding-right: 15px;
-}
 #reply-title {
-	clear: both;
 	padding-top: 15px;
 }
 .comment-text {
 	background: #fff;
-}
-
-/* Buttons */
-.form-submit .submit {
-	padding: 14px 24px;
-	border: 0 none;
-}
-.form-submit .submit {
-	border-radius: 6px;
 }
 
 /*------------------------------------------------------------------------
@@ -636,9 +591,6 @@ blockquote p,
 	padding: 30px 15px;
 	background: url("images/shadow.png") center 10px no-repeat,
 	url("images/concrete_seamless.png") repeat;
-}
-.site-info {
-	margin-top: 15px;
 }
 .social {
 	margin-top: 30px;

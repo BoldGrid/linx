@@ -167,15 +167,15 @@ p {
 	text-align: right;
 }
 
-/* sm */
-@media (min-width: 768px) {
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
 	.navbar-default .navbar-nav > li > a {
 		text-align: center;
 	}
 }
 
-/* md */
-@media (min-width: 992px) {
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
 	.xs-center,
 	.mod-img,
 	.mod-img-circle,
@@ -242,8 +242,8 @@ p {
 	margin-top: 15px;
 }
 
-/* sm */
-@media (min-width: 600px) {
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
 	.button-primary,
 	.button-secondary {
 		display: inline;
@@ -292,15 +292,15 @@ hr {
 	padding: 15px 0;
 }
 
-/* sm */
-@media (min-width: 768px) {
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
 	.site-branding {
 		margin: 0;
 	}
 }
 
-/* md */
-@media (min-width: 992px) {
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
 	.site-branding {
 		margin: 20px 0;
 	}
@@ -333,8 +333,8 @@ hr {
 	background: none;
 }
 
-/* sm */
-@media (min-width: 768px) {
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
 		color: #333;
 	}	
@@ -344,9 +344,8 @@ hr {
 	}
 }
 
-/* md */
-@media (min-width: 992px) {
-	/* Navigation */
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
 	.navbar-default {
 		float: right;
 		padding-top: 20px;
@@ -476,15 +475,15 @@ blockquote p,
 	box-shadow: 0px 7px 8px 0px rgba(150, 150, 150, 0.75);
 }
 
-/* sm */
-@media (min-width: 768px) {
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
 	.mod-beta {
 		padding: 0 5%;
 	}
 }
 
-/* md */
-@media (min-width: 992px) {
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
 	.mod-beta img {
 		width: 75%;
 	}
@@ -605,6 +604,7 @@ blockquote p,
 	url("images/concrete_seamless.png") repeat;
 }
 
+/* Sticky Footer */
 .palette-primary #boldgrid-sticky-push,
 .palette-primary #boldgrid-sticky-filler {
 	background: url( "images/concrete_seamless.png" ) repeat;

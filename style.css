@@ -69,7 +69,7 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 .mce-content-body .entry-content {
 	padding-top: 50px;
 }
-.home .background-primary,
+.page-template-page_home .background-primary,
 .search .site-content {
 	background: url('images/shadow.png') center 8px no-repeat,
 	url('images/concrete_seamless.png') repeat;

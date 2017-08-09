@@ -59,7 +59,7 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 .post-title-hidden .entry-title {
 	display: none;
 }
-.page-template-page_home .hentry,
+.page-template-page_home .entry-content,
 .post-title-hidden .site-content,
 .mce-content-body {
 	background: url("images/shadow.png") center 0 no-repeat,

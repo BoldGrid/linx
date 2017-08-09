@@ -15,8 +15,7 @@
 	.navbar-default .navbar-nav > li > a,
 	.site-title a,
 	.background-secondary h2,
-	.background-secondary p,
-	&.page-template-page_home .entry-content {
+	.background-secondary p {
 		background: $palette-primary_1;
 		color: $text-contrast-palette-primary_1;
 	}

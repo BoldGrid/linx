@@ -202,12 +202,6 @@ p {
 }
 
 /* Headings */
-.hentry {
-	margin: 0 auto;
-}
-.hentry:first-child ~ .hentry {
-	margin-top: 50px;
-}
 .heading h3 {
 	margin-top: 10px;
 }
@@ -526,6 +520,9 @@ blockquote p,
 ------------------------------------------------------------------------*/
 .edit-link {
 	float: left;
+}
+.post {
+	margin: 0 auto 50px;
 }
 
 /* Comments */
